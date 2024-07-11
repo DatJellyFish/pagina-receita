@@ -3,6 +3,14 @@ body {
   background-size: cover;
 }
 
+* p {
+  font-family: "Alice";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #573a37;
+}
+
 #page {
   background-color: #f0e8c2;
   display: flex;
@@ -12,4 +20,20 @@ body {
   align-items: flex-start;
   gap: 24px;
   border-radius: 24px;
+  margin: 48px auto;
+  box-sizing: border-box;
+}
+
+img {
+  height: 400px;
+  align-self: stretch;
+}
+
+h1 {
+  margin-top: 24px;
+  font-family: "Alice";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  color: #291b1a;
 }
